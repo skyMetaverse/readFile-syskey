@@ -16,6 +16,7 @@ const readline = require('readline');
  * If there's an error reading the file, the function will reject the promise with the 
  * corresponding error.
  */
+
 function readLines(filePath) {
     // Return a new Promise object that resolves to an array of lines or rejects with an error
     return new Promise((resolve, reject) => {
